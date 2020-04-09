@@ -12,10 +12,18 @@ Melee or range
 
 table2 = Gameplay Stat
 Champ ID
+Meta
+Runes
 Win rate
 Ban rate
 Pick rate
 Post (top,bot,mid,jungle,support)
+First spell taken
+First Blood
+Highest ranked player
+Early, mid or late game champ
+Summoners taken
+KDA
 
 table3 = Meta Stat
 Champ ID
@@ -25,6 +33,8 @@ Difficulty
 EB cost
 RP cost
 Nbr Skin
+Pro player taking the champ
+Total games played
 
 table4 = Lore Stat
 Champ ID
@@ -33,5 +43,16 @@ Full name
 Region
 Type
 
-table5 =
+table5 = Objectif
+Dragons taken
+Hearld taken
+Nashor taken
+Elder Drake taken
+Red or blue buff first clear
+
+table6 = Item
 Champ ID
+First item built
+First boots built
+Total GP
+Total CS
