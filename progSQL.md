@@ -14,19 +14,20 @@ table2 = Gameplay Stat
 Champ ID
 Meta
 Runes
-Win rate
-Ban rate
-Pick rate
-Post (top,bot,mid,jungle,support)
 First spell taken
 First Blood
 Highest ranked player
 Early, mid or late game champ
 Summoners taken
 KDA
+Win rate
+Ban rate
+Pick rate
+Post (top,bot,mid,jungle,support)
 
 table3 = Meta Stat
 Champ ID
+Highest ranked player
 Release date
 Type
 Difficulty
