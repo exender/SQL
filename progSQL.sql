@@ -155,7 +155,84 @@ VALUES(019,    572, 8.5, 61, 1, 37, 32, 335, 1)
 INSERT CHAMPSTATS
 VALUES(020, 582 , 3, 59, 1, 27, 30, 330, 1)
 
+-- Tryndamere
+INSERT CHAMPSTATS
+VALUES(021, 625, 8.5, 69, 1, 33, 32, 345, 1)
 
+-- KARTHUS
+INSERT CHAMPSTATS
+VALUES(022, 528, 6.5, 46, 1, 30, 20, 335, 0)
+
+-- AMUMU
+INSERT CHAMPSTATS
+VALUES(023, 613, 9, 53, 1, 33, 32, 335, 1)
+
+-- CHO'GATH
+INSERT CHAMPSTATS
+VALUES(024, 574, 9, 69, 1, 38, 32, 345, 1)
+
+-- ANIVIA
+INSERT CHAMPSTATS
+VALUES(025, 480, 5.5, 53, 1, 21, 30, 325, 0)
+-- RAMMUS 
+INSERT CHAMPSTATS
+VALUES(026, 568, 8, 36, 1, 36, 32, 335, 1)
+
+-- VEIGAR
+INSERT CHAMPSTATS
+VALUES(027, 505, 6.5, 52, 1, 23, 30, 340, 0)
+
+--KASSADIN
+INSERT CHAMPSTATS
+VALUES(028, 576, 6, 58, 1, 19, 30, 335, 1)
+
+--GANGPLANK
+INSERT CHAMPSTATS
+VALUES(029, 540, 6, 64, 1, 35, 32, 345, 1)
+
+--TARIC
+INSERT CHAMPSTATS
+VALUES(030, 575, 6, 55, 1, 40, 32, 340, 1)
+
+-- Malphite
+INSERT CHAMPSTATS
+VALUES(031, 574, 7, 61, 1, 37, 32, 335, 1)
+
+-- Janna
+INSERT CHAMPSTATS
+VALUES(032, 500, 5, 46, 1, 28, 30, 315, 0)
+
+-- BLITZCRANK
+INSERT CHAMPSTATS
+VALUES(033, 582, 8, 61, 1, 37, 32, 325, 1)
+
+-- DR. MUNDO
+INSERT CHAMPSTATS
+VALUES(034, 582, 8, 61, 0, 36, 32, 345, 1) 
+
+-- Katarina
+INSERT CHAMPSTATS
+VALUES(035, 602, 7, 58, 0, 27, 32, 340, 1)
+
+-- Corki
+INSERT CHAMPSTATS
+VALUES(036, 518, 5, 55, 1, 28, 30, 325, 0)
+
+-- Nasus
+INSERT CHAMPSTATS
+VALUES(037, 561, 9, 67, 1, 34, 32, 350, 1)
+
+-- HEIMERDINGER
+INSERT CHAMPSTATS
+VALUES(038, 488, 7, 55, 1, 19, 30, 340, 0)
+
+-- Shaco
+INSERT CHAMPSTATS
+VALUES(039, 587, 8, 63, 1, 30, 32, 350, 1)
+
+-- Udyr
+INSERT CHAMPSTATS
+VALUES(040, 593, 6, 66, 1, 34, 32, 345, 1)
 
 SELECT * FROM CHAMPSTATS
 
@@ -203,6 +280,58 @@ VALUES('bruv machine', 009, 0, 'Rush phasique', 'W', 0.05, 'Late', 'Teleport', 5
 -- Sion
 INSERT GAMEPLAYSTATS
 VALUES('Thebausffs', 010, 0, 'Poigne de l"immortel', 'Q', 0.30, 'Late', 'Teleport', 5.9, 50.4, 0.1, 2.7, 'Top')
+
+--Sivir
+INSERT GAMEPLAYSTATS
+VALUES('Zenterleft', 011, 0, 'Tempo Mortel', 'Q', 0.45, 'Late', 'Heal', 5.6, 50.6, 2.3,3.4,'Bottom')
+
+--Soraka
+INSERT GAMEPLAYSTATS
+VALUES('my adc 2 good', 012, 0, 'Invocation d"Aery', 'W', 0.45, 'Mid', 'Heal', 15, 49, 0.15, 1.4, 'Bottom')
+
+--Teemo
+INSERT GAMEPLAYSTATS
+VALUES('Korvmannen', 013, 1, 'Poigne de l"immortel', 'Q', 0.60, 'Mid', 'Ignite', 6.66, 51, 0.20, 6.3, 'Top')
+
+--Tristana
+INSERT GAMEPLAYSTATS
+VALUES('Asves', 014, 0, 'Attaque Soutenue', 'E', 0.20, 'Late', 'Heal', 5.2, 53, 0.21, 0.25, 'Bottom')
+
+--Twisted Fate
+ INSERT GAMEPLAYSTATS
+VALUES('imsåma', 015, 1, 'Grimoire Déchainé', 'Q', 0.10, 'Mid', 'Teleport', 5.6, 50, 1.3, 7.38, 'Mid')
+
+--Warwick
+ INSERT GAMEPLAYSTATS
+VALUES('Corona WW', 016, 1, 'Attaque Soutenue', 'Q', 0.20, 'Early', 'Smite', 5.8, 52, 0.26, 2.62, 'Jungle')
+
+--Singed
+ INSERT GAMEPLAYSTATS
+VALUES( 'SlNGED', 017, 1, 'Conquerant', 'Q', 0.15, 'Late', 'Teleport', 5.4, 51, 0.31, 1.95, 'Top')
+ 
+ --Zilean
+INSERT GAMEPLAYSTATS
+VALUES('WF Dylean', 018, 1, 'Invocation d"Aery', 'Q', 0.20, 'Mid', 'Ignite', 5.4, 53, 3.12,  6.12, 'Support')
+
+--Evelynn
+INSERT GAMEPLAYSTATS
+VALUES('TRUEINVIS', 019, 0, 'Électrocution', 'Q', 0.10, 'Early', 'Smite' , 4.9, 49, 1.99, 2.41, 'Jungle')
+
+--Twitch
+INSERT GAMEPLAYSTATS
+VALUES('M0SbR1cKA', 020, 0, 'Attaque Soutenue', 'E', 0.35, 'Mid','Heal', 4.8, 50, 0.07, 1.05, 'Bottom')
+
+-- Tryndamere
+INSERT GAMEPLAYSTATS
+VALUES('Lumerion', 021, 0, 'Tempo mortel', 'E', 0.40, 'Early', 'Ignite', 4.9, 50.9, 4.5, 4.9, 'Top')
+
+-- Karthus
+INSERT GAMEPLAYSTATS
+VALUES('Falarinn', 022, 1, 'Moisson Noire', 'Q', 0.02, 'Late', 'Smite', 7.1, 48.8, 4.3, 4.5, 'Jungle')
+
+-- Amumu
+INSERT GAMEPLAYSTATS
+VALUES('El Löto', 023, 0, 'Après-coup', 'W', 0.5, 'Late', 'Smite', 6.5, 50.9, 0.7, 3.8, 'Jungle')
 
 SELECT * FROM GAMEPLAYSTATS
 
