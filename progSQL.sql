@@ -1,7 +1,4 @@
-﻿CREATE DATABASE LOS
-
-USE LOS
-
+﻿USE LOS
 
 -- CHAMPSTATS 
 CREATE TABLE CHAMPSTATS
@@ -74,8 +71,6 @@ FIRST_BOOTS_BUILT VARCHAR(40) null,
 TOTAL_GP INT not null,
 TOTAL_CS INT null) 
 
-USE LOS
-
 -- Alistar
 INSERT CHAMPSTATS
 VALUES(000, 600, 8.5, 62, 1, 44, 32, 330, 1)
@@ -122,6 +117,7 @@ VALUES(010, 545, 7.5, 68, 1, 32, 32, 345, 1)
 
 SELECT * FROM CHAMPSTATS
 
+
 -- Alistar
 INSERT GAMEPLAYSTATS
 VALUES('Yokitch', 000, 1, 'Après-coup', 'Q', 0.15, 'Mid', 'Ignite', 6.16, 50.3, 0.5, 4.3, 'Support')
@@ -167,3 +163,50 @@ INSERT GAMEPLAYSTATS
 VALUES('Thebausffs', 010, 0, 'Poigne de l"immortel', 'Q', 0.30, 'Late', 'Teleport', 5.9, 50.4, 0.1, 2.7, 'Top')
 
 SELECT * FROM GAMEPLAYSTATS
+
+
+-- Alistar
+INSERT METASTATS
+VALUES(000, 'Yokitch', '2009-02-21', 'Vanguard', 1, 1350, 585, 14, 50, 338268)
+
+-- Annie
+INSERT METASTATS
+VALUES(001, 'Meliodas Verde', '2009-02-21', 'Burst', 1, 450, 260, 13, NULL, 286381) 
+
+-- Ashe
+INSERT METASTATS
+VALUES(002, 'Ganador', '2009-02-21', 'Marksman', 1, 450, 260, 12, 6, 987441)
+
+-- Fiddlesticks
+INSERT METASTATS
+VALUES( 003, 'Ferrari Fiddle', '2009-02-21',  'Specialist', 2, 1350, 585, 9, NULL, 636653)
+
+-- Jax
+INSERT METASTATS
+VALUES(004, 'B1GBOPPA', '2009-02-21', 'Skirmisher', 1, 1350, 585, 11, 13, 1088482)
+
+-- Kayle
+INSERT METASTATS
+VALUES(005, 'kayle 1v9', '2009-02-21', 'Dual Range', 2, 450, 260, 10, NULL, 324180)
+
+-- Maître Yi
+INSERT METASTATS
+VALUES(006, 'Zαpdo', '2009-02-21', 'Cut throat', 1, 450, 260, 11, NULL, 1063720)
+
+-- Morgana
+INSERT METASTATS
+VALUES(007, 'Skylandz', '2009-02-21', 'Catcher', 1, 1350, 585, 11, 5, 1191670)
+
+-- Nunu & Willump
+INSERT METASTATS
+VALUES(008, 'Kesha', '2009-02-21', 'Yeti Style', 1, 450, 260, 9, 3, 253795)
+
+-- Ryze
+INSERT METASTATS
+VALUES(009, 'bruv machine', '2009-02-21', 'Battlemage', 2, 450, 260, 14, 37, 404851)
+
+-- Sion
+INSERT METASTATS
+VALUES(010, 'Thebausffs', '2009-02-21', 'GigaZombie', 1, 1350, 585, 7, 37, 243949)
+
+SELECT * FROM METASTATS
