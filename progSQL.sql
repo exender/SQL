@@ -488,6 +488,46 @@ VALUES(019, 'TRUEINVIS', '2009-05-01', 'ElDiabless', 2, 1350, 585, 9, 1, 330999)
 INSERT METASTATS
 VALUES(020, 'M0SbR1cKA', '2009-05-01','Le rat', 1, 3150, 790, 11, 1, 418724)
 
+-- Tryndamere
+INSERT METASTATS
+VALUES(021, 'Lumerion', '2009-05-01', 'Invincible', 1, 1350, 585, 11, NULL, 679008)
+
+-- KARTHUS
+INSERT METASTATS
+VALUES(022, 'Falarinn', '2009-06-12', 'press R', 2, 3150, 790, 5, 19, 216063)
+
+-- AMUMU
+INSERT METASTATS
+VALUES(023, 'El Löto', '2009-06-25', 'pleuré', 1, 450, 260, 10, NULL, 666102)
+
+-- CHO'GATH
+INSERT METASTATS
+VALUES(024, 'João', '2009-06-25', 'Nomnom', 1, 1350, 585, 8, 1, 398125)
+
+-- ANIVIA
+INSERT METASTATS
+VALUES(025, 'Bridge111', '2009-07-10', 'Omelette', 2, 3150, 790, 9, 1, 225159)
+
+-- RAMMUS 
+INSERT METASTATS
+VALUES(026, 'owker', '2009-07-10', 'Toupie', 1, 1350, 585, 10, NULL, 342682)
+
+-- VEIGAR
+INSERT METASTATS
+VALUES(027, 'Calmlands', '2009-07-24', '1M ap', 2, 1350, 585, 12, NULL, 932148) 
+
+--KASSADIN
+INSERT METASTATS
+VALUES(028, 'MrJoystik', '2009-08-07', '1xxxx dash', 2, 3150, 790, 7, 2, 558526) 
+
+--GANGPLANK
+INSERT METASTATS
+VALUES(029, 'Hansplank', '2009-08-19', 'Orange', 3, 3150, 790, 10, 5, 262798) 
+
+--TARIC
+INSERT METASTATS
+VALUES(030, 'Varaxo', '2009-08-19', 'le gay', 2, 1350, 585, 6, NULL, 304424)
+
 SELECT * FROM METASTATS
 
 
@@ -575,6 +615,46 @@ VALUES(019,'Evelynn','Agony s Embrace','Runeterra','ElDiabless')
 INSERT LORESTATS
 VALUES(020,'Twitch','Plague Rat','Zaun','Le rat')
 
+-- Tryndamere
+INSERT LORESTATS
+VALUES(021, 'Tryndamere', 'The barbarian king', 'Freljord' , 'Invincible') 
+
+-- KARTHUS
+INSERT LORESTATS
+VALUES(022, 'Karthus', 'The Deathsinger', 'Shadow Isles' , 'press R') 
+
+-- AMUMU
+INSERT LORESTATS
+VALUES(023, 'Amumu', 'The Sad Mummy', 'Shurima' , 'pleuré') 
+
+-- CHO'GATH
+INSERT LORESTATS
+VALUES(024, 'Cho gath', 'The Terror of the Void', 'Void' , 'Nomnom') 
+
+-- ANIVIA
+INSERT LORESTATS
+VALUES(025, 'Anivia', 'The Cryophoenix', 'Freljord' , 'Omelette') 
+
+-- RAMMUS 
+INSERT LORESTATS
+VALUES(026, 'Rammus', 'The Armordillo', 'Shurima' , 'TOUPIE') 
+
+-- VEIGAR
+INSERT LORESTATS
+VALUES(027, 'Veigar', 'THE TINY MASTER OF EVIL', 'Bandle City' , '1M ap') 
+
+--KASSADIN
+INSERT LORESTATS
+VALUES(028, 'Kassadin', 'The Void Walker', 'Void' , '1xxxx dash') 
+
+--GANGPLANK
+INSERT LORESTATS
+VALUES(029, 'Gangplank', 'The Saltwater Scourge', 'Bilgewater' , 'Orange') 
+
+--TARIC
+INSERT LORESTATS
+VALUES(030, 'Taric', 'The Shield of Valoran', 'Targon' , 'le gay')
+
 SELECT * FROM LORESTATS
 
 
@@ -621,5 +701,45 @@ VALUES(009, 'Bâton séculaire', 'Chaussures de sorcier', 11386, 195)
 -- Sion
 INSERT ITEMS
 VALUES(010,  'Cape solaire', 'Tabi ninja', 10809, 162)
+
+--Sivir
+INSERT ITEMS
+VALUES(011, 'Faux Spectrale', 'Jambière du berzerker', 19613, 196)
+
+--Soraka
+INSERT ITEMS
+VALUES(012,'Graal impie d"Athene','Bottes de mobilité',  7373,18)
+
+--Teemo
+INSERT ITEMS
+VALUES(013, 'Tourment de Liandry', 'Chaussures de sorcier', 11508, 161)
+
+--Tristana
+INSERT ITEMS
+VALUES(014, 'Lame Tempete','Jambière du berzerker', 11943, 170)
+
+--Twisted Fate
+INSERT ITEMS
+VALUES(015,'Baton Seculaire','Sandale de Mercure', 11376, 158)
+
+--Warwick
+INSERT ITEMS
+VALUES(016,'Tiamat','Tabi ninja',11345,145)
+
+--Singed
+INSERT ITEMS
+VALUES(017,'Sceptre de Rilay','Tabi ninja', 11152,175)
+
+--Zilean
+INSERT ITEMS
+VALUES(018,'Ombre Jumelles','Bottes de mobilité', 8810,68)
+
+--Evelynn
+INSERT ITEMS
+VALUES(019,'Enchantement : écho runique','Chaussures de sorcier', 11086, 132)
+
+--Twitch
+INSERT ITEMS
+VALUES(020,'Lame du roi déchu','Jambière du berzerker', 11887,158)
 
 SELECT * FROM ITEMS
