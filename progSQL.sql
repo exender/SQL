@@ -307,7 +307,7 @@ VALUES('Corona WW', 016, 1, 'Attaque Soutenue', 'Q', 0.20, 'Early', 'Smite', 5.8
 
 --Singed
  INSERT GAMEPLAYSTATS
-VALUES( 'SlNGED', 017, 1, 'Conquerant', 'Q', 0.15, 'Late', 'Teleport', 5.4, 51, 0.31, 1.95, 'Top')
+VALUES( 'SlNGED', 017, 1, 'Conquérant', 'Q', 0.15, 'Late', 'Teleport', 5.4, 51, 0.31, 1.95, 'Top')
  
  --Zilean
 INSERT GAMEPLAYSTATS
@@ -332,6 +332,74 @@ VALUES('Falarinn', 022, 1, 'Moisson Noire', 'Q', 0.02, 'Late', 'Smite', 7.1, 48.
 -- Amumu
 INSERT GAMEPLAYSTATS
 VALUES('El Löto', 023, 0, 'Après-coup', 'W', 0.5, 'Late', 'Smite', 6.5, 50.9, 0.7, 3.8, 'Jungle')
+
+-- CHO'GATH
+INSERT GAMEPLAYSTATS
+VALUES(' João', 024, 0, 'Optimisation Glacial', 'Q', 0.10, 'Late', 'Teleport', 5.5, 48.9, 0.5, 3.0, 'Top')
+
+-- ANIVIA
+INSERT GAMEPLAYSTATS
+VALUES(' Bridge111', 025, 0, 'Optimisation Glacial', 'Q', 0.10, 'Late', 'Ignite', 5.6, 51, 0.9, 2.6, 'Middle')
+
+-- RAMMUS 
+INSERT GAMEPLAYSTATS
+VALUES(' owker', 026, 1, 'Après-coup', 'W', 0.10, 'Late', 'Smite', 5.5, 49, 4.1, 2.9, 'Jungle')
+
+-- VEIGAR
+INSERT GAMEPLAYSTATS
+VALUES(' Calmlands', 027, 0, 'Optimisation Glacial', 'Q', 0.13, 'Late', 'Teleport', 6.5, 49, 1.7, 5.4, 'Middle')
+
+--KASSADIN
+INSERT GAMEPLAYSTATS
+VALUES(' MrJoystik', 028, 1, 'Jeu de jambes', 'Q', 0.15, 'Late', 'Teleport', 6.5, 50.3, 24.8, 7.6, 'Middle')
+
+--GANGPLANK
+INSERT GAMEPLAYSTATS
+VALUES('Hansplank', 029, 1, 'Poigne de l"immortel', 'Q', 0.22, 'Late', 'Teleport', 4.9, 48.3, 1.5, 4, 'Top')
+
+--TARIC
+INSERT GAMEPLAYSTATS
+VALUES('Varaxo', 030, 1, 'Gardien', 'E', 0.05, 'Late', 'Ignite', 3.5 , 53, 1.5, 4, 'Support')
+
+-- Malphite
+INSERT GAMEPLAYSTATS
+VALUES('Pidin', 031, 1, 'Comète arcanique', 'Q', 0.20, 'Mid', 'Teleport', 5.25, 51.2, 2.9, 5.7, 'Top')
+
+-- Janna
+INSERT GAMEPLAYSTATS
+VALUES('NAsFinest', 032, 1, 'Comète arcanique', 'W', 0.10, 'Early', 'Ignite', 6.4, 52.4, 0.4, 5.7, 'Support')
+
+-- BLITZCRANK
+INSERT GAMEPLAYSTATS
+VALUES('besni leptir', 033, 1, 'Après-coup', 'Q', 0.50, 'Early', 'Ignite', 5.25, 51.6, 16.4, 5.7, 'Support')
+
+-- DR. MUNDO
+INSERT GAMEPLAYSTATS
+VALUES('Hyperdawn', 034, 1, 'Poigne de l"immortel', 'Q', 0.3, 'Late', 'Teleport', 2.47, 50.2, 0.6, 4, 'Top')
+
+-- Katarina
+INSERT GAMEPLAYSTATS
+VALUES('Myeong Ju', 035, 1, 'Conquérant', 'Q', 0.6, 'Early', 'Ignite', 6.7, 51.4, 11.5, 5.7, 'Mid')
+
+-- Corki
+INSERT GAMEPLAYSTATS
+VALUES('LunchYz', 036, 1, 'Jeu de jambes', 'Q', 0.3, 'Late', 'Teleport', 2.44, 47.5, 0.2, 5.7, 'Mid')
+
+-- Nasus
+INSERT GAMEPLAYSTATS
+VALUES('Sebekx', 037, 1, 'Grimoire Déchainé', 'Q', 0.2, 'Late', 'Teleport', 4.9, 50.3, 5, 5.7, 'Top')
+
+-- HEIMERDINGER
+INSERT GAMEPLAYSTATS
+VALUES('AuFault', 038, 1, 'Comète arcanique', 'W', 0.3, 'Late', 'Teleport', 4.2, 48.1, 2.1, 5.7, 'Top')
+
+-- Shaco
+INSERT GAMEPLAYSTATS
+VALUES('Binh Ly', 039, 1, 'Déluge de lames', 'E', 0.4, 'Late', 'Smite', 6.6, 50.7, 8.9, 5.7, 'Jungle')
+
+-- Udyr
+INSERT GAMEPLAYSTATS
+VALUES('Pingon', 040, 1, 'Conquérant', 'Q', 0.25, 'Early', 'Smite', 5.4, 50.8, 0.3, 5.7, 'Jungle')
 
 SELECT * FROM GAMEPLAYSTATS
 
@@ -380,6 +448,46 @@ VALUES(009, 'bruv machine', '2009-02-21', 'Battlemage', 2, 450, 260, 14, 37, 404
 INSERT METASTATS
 VALUES(010, 'Thebausffs', '2009-02-21', 'GigaZombie', 1, 1350, 585, 7, 37, 243949)
 
+-- Sivir 
+INSERT METASTATS
+VALUES(011, 'Zenterleft','2009-02-21', 'LivreuUber', 2, 450, 260, 6, 24, 355596)
+
+--Soraka
+INSERT METASTATS
+VALUES(012, 'my adc 2 good','2009-02-21','Licorne', 1, 450, 260, 10, 1, 421848)
+
+--Teemo
+INSERT METASTATS
+VALUES(013,'Korvmannen','2009-02-21', 'Diable', 1, 1350, 585, 7, NULL, 762101)
+
+--Tristana
+INSERT METASTATS
+VALUES(014,'Asves', '2009-02-21', 'Destruc', 1, 1350, 585, 7, 8, 910675)
+
+--Twisted Fate 
+INSERT METASTATS
+VALUES(015, 'imsåma', '2009-02-21', 'Hearth', 2, 1350, 585, 11, NULL, 317452)
+
+--Warwick
+INSERT METASTATS
+VALUES(016, 'Corona WW','2009-02-21', 'Loup', 1, 450, 260, 10, NULL, 932934)
+
+--Singed
+INSERT METASTATS
+VALUES(017, 'SlNGED', '2009-04-18', 'Empoiso', 2, 450, 260, 10, NULL, 202692)
+
+--Zilean
+INSERT METASTATS
+VALUES(018, 'WF Dylean', '2009-04-18', 'Maratho', 3, 1350, 585, 8, 17, 296860)
+
+--Evelynn
+INSERT METASTATS
+VALUES(019, 'TRUEINVIS', '2009-05-01', 'ElDiabless', 2, 1350, 585, 9, 1, 330999)
+
+--Twitch
+INSERT METASTATS
+VALUES(020, 'M0SbR1cKA', '2009-05-01','Le rat', 1, 3150, 790, 11, 1, 418724)
+
 SELECT * FROM METASTATS
 
 
@@ -426,6 +534,46 @@ VALUES(009, 'Ryze', 'The Rune Mage',  'Runeterra', 'Battlemage')
 -- Sion
 INSERT LORESTATS
 VALUES(010, 'Sion', 'The Undead Juggernaut', 'Noxus', 'GigaZombie')
+
+--Sivir 
+INSERT LORESTATS
+VALUES(011,'Sivir', 'Battle Mistress', 'Shurima','LivreuUber')
+
+--Soraka
+INSERT LORESTATS
+VALUES(012, 'Soraka','THE STARCHILD', 'Ionia', 'Licorne')
+
+--Teemo
+INSERT LORESTATS
+VALUES(013, 'Teemo','Swift Scout', 'Bandle City', 'Diable')
+
+--Tristana
+INSERT LORESTATS
+VALUES(014,'Tristana', 'Yordle Gunner','Yordle', 'Destruc')
+
+--Twisted Fate
+INSERT LORESTATS
+VALUES(015,'Twisted Fate','Card Master','Freljord', 'Hearth')
+
+--Warwick
+INSERT LORESTATS
+VALUES(016,'Warwick', 'Uncaged Wrath of Zaun','Zaun', 'Loup')
+
+--Singed
+INSERT LORESTATS
+VALUES(017,'Singed', 'Mad Chemist','Zaun','Empoiso')
+
+--Zilean
+INSERT LORESTATS
+VALUES(018,'Zilean', 'Chronokeeper','Zaun','Maratho')
+
+--Evelynn
+INSERT LORESTATS
+VALUES(019,'Evelynn','Agony s Embrace','Runeterra','ElDiabless')
+
+--Twitch
+INSERT LORESTATS
+VALUES(020,'Twitch','Plague Rat','Zaun','Le rat')
 
 SELECT * FROM LORESTATS
 
