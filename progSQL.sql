@@ -115,6 +115,48 @@ VALUES(009, 570, 8, 55, 1, 21, 34, 340, 0)
 INSERT CHAMPSTATS
 VALUES(010, 545, 7.5, 68, 1, 32, 32, 345, 1)
 
+--Sivir 
+INSERT CHAMPSTATS 
+VALUES(011, 532, 3.25, 63, 1, 26, 30, 335, 0)
+
+--Soraka
+INSERT CHAMPSTATS
+VALUES(012, 535, 2.5, 50, 1, 32, 30, 325, 0)
+
+--Teemo
+INSERT CHAMPSTATS
+VALUES(013, 528, 5.5, 54, 1, 24, 30, 330, 0)
+
+--Tristana
+INSERT CHAMPSTATS
+VALUES(014, 559, 4, 61, 1, 26, 30, 325, 0)
+
+--Twisted Fate
+INSERT CHAMPSTATS
+VALUES(015, 534, 5.5, 50, 1, 20, 30, 335, 0)
+
+--Warwick 
+INSERT CHAMPSTATS
+VALUES(016, 550, 4, 65, 1, 33, 32, 335, 1)
+
+--Singed
+INSERT CHAMPSTATS
+VALUES(017, 580, 9, 63, 1, 34, 33, 345, 1)
+
+--Zilean
+INSERT CHAMPSTATS
+VALUES(018, 504, 5.5, 51, 1, 24, 30, 335, 0)
+
+--Evelyn 
+INSERT CHAMPSTATS
+VALUES(019,    572, 8.5, 61, 1, 37, 32, 335, 1)
+
+--Twitch
+INSERT CHAMPSTATS
+VALUES(020, 582 , 3, 59, 1, 27, 30, 330, 1)
+
+
+
 SELECT * FROM CHAMPSTATS
 
 
@@ -210,3 +252,97 @@ INSERT METASTATS
 VALUES(010, 'Thebausffs', '2009-02-21', 'GigaZombie', 1, 1350, 585, 7, 37, 243949)
 
 SELECT * FROM METASTATS
+
+
+-- Alistar
+INSERT LORESTATS
+VALUES(000, 'Alistar', 'The Minotaur', 'Noxus', 'Vanguard')
+
+-- Annie
+INSERT LORESTATS
+VALUES(001, 'Annie', 'The Dark Child', 'Noxus' , 'Burst') 
+
+-- Ashe
+INSERT LORESTATS
+VALUES(002, 'Ashe', 'The Frost Archer', 'Freljord', 'Marksman')
+
+-- Fiddlesticks
+INSERT LORESTATS
+VALUES( 003, 'Fiddlesticks', 'The Ancient Fear', 'Demacia' , 'Specialist')
+
+-- Jax
+INSERT LORESTATS
+VALUES(004, 'Jax', 'Grandmaster At Arms',  'Icathia' , 'Skirmisher')
+
+-- Kayle
+INSERT LORESTATS
+VALUES(005, 'Kayle', 'The Righteous', 'Targon', 'Dual Range')
+
+-- Maître Yi
+INSERT LORESTATS
+VALUES(006, 'Maître Yi', 'The Wuju Bladesman',  'Ionia', 'Cut throat')
+
+-- Morgana
+INSERT LORESTATS
+VALUES(007, 'Morgana', 'The Fallen', 'Targon', 'Catcher')
+
+-- Nunu & Willump
+INSERT LORESTATS
+VALUES(008, 'Nunu & Willump', 'The Boy And His Yeti', 'Freljord', 'Yeti Style')
+
+-- Ryze
+INSERT LORESTATS
+VALUES(009, 'Ryze', 'The Rune Mage',  'Runeterra', 'Battlemage')
+
+-- Sion
+INSERT LORESTATS
+VALUES(010, 'Sion', 'The Undead Juggernaut', 'Noxus', 'GigaZombie')
+
+SELECT * FROM LORESTATS
+
+
+-- Alistar
+INSERT ITEMS
+VALUES(000, 'Convergence de Zeke', 'Bottes de mobilité',  7697, 34)
+
+-- Annie
+INSERT ITEMS
+VALUES(001, 'Écho de Luden', 'Chaussures de sorcier', 10744, 136) 
+
+-- Ashe
+INSERT ITEMS
+VALUES(002, 'Lame du roi déchu', 'Jambière du berzerker',  11317, 160)
+
+-- Fiddlesticks
+INSERT ITEMS
+VALUES( 003, 'Enchantement : Écho runiques', 'Chaussures de sorcier', 9914, 110)
+
+-- Jax
+INSERT ITEMS
+VALUES(004, 'Lame du roi déchu', 'Tabi ninja',  11506, 164)
+
+-- Kayle
+INSERT ITEMS
+VALUES(005, 'Pistolame Hextech', 'Jambière du berzerker', 11547, 187)
+
+-- Maître Yi
+INSERT ITEMS
+VALUES(006, 'Enchantement : Rasoir sanglant', 'Tabi ninja', 11916, 159)
+
+-- Morgana
+INSERT ITEMS
+VALUES(007, 'Sablier de Zhonya', 'Bottes de mobilité',  8934, 51)
+
+-- Nunu & Willump
+INSERT ITEMS
+VALUES(008, 'Enchantement : Titan cendré', 'Sandales de Mercure',  10161, 139)
+
+-- Ryze
+INSERT ITEMS
+VALUES(009, 'Bâton séculaire', 'Chaussures de sorcier', 11386, 195)
+
+-- Sion
+INSERT ITEMS
+VALUES(010,  'Cape solaire', 'Tabi ninja', 10809, 162)
+
+SELECT * FROM ITEMS
