@@ -742,4 +742,44 @@ VALUES(019,'Enchantement : écho runique','Chaussures de sorcier', 11086, 132)
 INSERT ITEMS
 VALUES(020,'Lame du roi déchu','Jambière du berzerker', 11887,158)
 
+-- Tryndamere
+INSERT ITEMS
+VALUES(021,  'Lame du roi déchu', 'Jambière du berzerker', 12203, 213)
+
+-- KARTHUS
+INSERT ITEMS
+VALUES(022,  'Enchantement : Écho runiques', 'Chaussures de sorcier', 12067, 188)
+
+-- AMUMU
+INSERT ITEMS
+VALUES(023,  'Enchantement : Écho runiques', 'Chaussures de sorcier', 10442, 152)
+
+-- CHO'GATH
+INSERT ITEMS
+VALUES(024,  'GLP Hextech 800 ', 'Sandales de Mercure', 10709, 165)
+
+-- ANIVIA
+INSERT ITEMS
+VALUES(025,  'Bâton séculaire', 'Chaussures de sorcier', 11173, 182)
+
+-- RAMMUS 
+INSERT ITEMS
+VALUES(026,  'Enchantement : Titan cendré', 'Tabi ninja', 10139, 139)
+
+-- VEIGAR
+INSERT ITEMS
+VALUES(027,  'GLP Hextech 800', 'Chaussures de sorcier', 11275, 169)
+
+--KASSADIN
+INSERT ITEMS
+VALUES(028,  'Bâton séculaire', 'Chaussures de sorcier', 11321, 176)
+
+--GANGPLANK
+INSERT ITEMS
+VALUES(029,  'Force de la Trinité', 'Tabi ninja', 12167, 196)
+
+--TARIC
+INSERT ITEMS
+VALUES(030,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+
 SELECT * FROM ITEMS
