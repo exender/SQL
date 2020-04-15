@@ -1,0 +1,16 @@
+USE LOS
+
+SELECT top(5) ls.CHAMP_NAME AS "Nom du champion", cs.HEALTH AS "Vie du champion"
+FROM LORESTATS ls
+INNER JOIN CHAMPSTATS cs
+ON(ls.CHAMP_ID = cs.CHAMP_ID)
+WHERE cs.HEALTH > 550
+ORDER BY cs.HEALTH DESC
+
+SELECT top(5) ls.CHAMP_NAME AS "Nom du champion", cs.AD AS "Attaque du champion"
+FROM LORESTATS ls
+INNER JOIN CHAMPSTATS cs
+ON(ls.CHAMP_ID = cs.CHAMP_ID)
+WHERE CAC LIKE 1
+ORDER BY cs.AD DESC
+

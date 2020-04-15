@@ -655,9 +655,6 @@ VALUES(029, 'Gangplank', 'The Saltwater Scourge', 'Bilgewater' , 'Orange')
 INSERT LORESTATS
 VALUES(030, 'Taric', 'The Shield of Valoran', 'Targon' , 'le gay')
 
-SELECT * FROM LORESTATS
-
-
 -- Alistar
 INSERT ITEMS
 VALUES(000, 'Convergence de Zeke', 'Bottes de mobilité',  7697, 34)
@@ -783,3 +780,27 @@ INSERT ITEMS
 VALUES(030,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
 
 SELECT * FROM ITEMS
+
+INSERT OBJECTIVES
+VALUES(5, 2, 2, 1, 1)
+
+
+INSERT OBJECTIVES
+VALUES(4, 1, 3, 1, 0)
+
+
+INSERT OBJECTIVES
+VALUES(1, 3, 1, 0, 1)
+
+
+INSERT OBJECTIVES
+VALUES(10, 1, 0, 0, 1)
+
+
+INSERT OBJECTIVES
+VALUES(3, 1, 2, 2, 1)
+
+INSERT OBJECTIVES
+VALUES(0, 0, 0, 0, 0)
+
+SELECT * FROM OBJECTIVES
