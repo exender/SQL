@@ -638,6 +638,15 @@ VALUES(031, 574, 7, 61, 1, 37, 32, 335, 1)
 INSERT GAMEPLAYSTATS
 VALUES('Pidin', 031, 1, 'Comète arcanique', 'Q', 0.20, 'Mid', 'Teleport', 5.25, 51.2, 2.9, 5.7, 'Top')
 
+INSERT METASTATS
+VALUES(031, 'Pidin', '2009-08-19', 'Teleport', 5, 1650, 585, 6, NULL, 304324)
+
+INSERT LORESTATS
+VALUES(031, 'Malphite', 'The Shield of Malphite', 'Comète arcanique' , 'Teleport')
+
+INSERT ITEMS
+VALUES(031,  'Convergence de Zeke', 'Bottes de mobilité', 7285, 35)
+
 
 
 -- Janna
@@ -646,6 +655,15 @@ VALUES(032, 500, 5, 46, 1, 28, 30, 315, 0)
 
 INSERT GAMEPLAYSTATS
 VALUES('NAsFinest', 032, 1, 'Comète arcanique', 'W', 0.10, 'Early', 'Ignite', 6.4, 52.4, 0.4, 5.7, 'Support')
+
+INSERT METASTATS
+VALUES(032, 'NAsFinest', '2010-10-19', 'SuperNami', 5, 1350, 575, 4, NULL, 302644)
+
+INSERT LORESTATS
+VALUES(032, 'Janna', 'Comète arcanique', 'Janna' , 'SuperNami')
+
+INSERT ITEMS
+VALUES(032,  'Convergence de Zeke', 'Bottes de mobilité', 7265, 37)
 
 
 
@@ -656,6 +674,15 @@ VALUES(033, 582, 8, 61, 1, 37, 32, 325, 1)
 INSERT GAMEPLAYSTATS
 VALUES('besni leptir', 033, 1, 'Après-coup', 'Q', 0.50, 'Early', 'Ignite', 5.25, 51.6, 16.4, 5.7, 'Support')
 
+INSERT METASTATS
+VALUES(033, 'besni leptir', '2009-08-19', 'besni', 2, 1350, 585, 6, NULL, 310424)
+
+INSERT LORESTATS
+VALUES(033, 'BLITZCRANK', 'Après-coup', 'BLITZCRANK' , 'besni')
+
+INSERT ITEMS
+VALUES(033,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+
 
 
 -- DR. MUNDO
@@ -664,6 +691,15 @@ VALUES(034, 582, 8, 61, 0, 36, 32, 345, 1)
 
 INSERT GAMEPLAYSTATS
 VALUES('Hyperdawn', 034, 1, 'Poigne de l"immortel', 'Q', 0.3, 'Late', 'Teleport', 2.47, 50.2, 0.6, 4, 'Top')
+
+INSERT METASTATS
+VALUES(034, 'Hyperdawn', '2009-08-19', 'le gay', 2, 1350, 585, 6, NULL, 304424)
+
+INSERT LORESTATS
+VALUES(034, 'DR. MUNDO', 'Poigne de l"immortel', 'DR. MUNDO' , 'Hyperdown')
+
+INSERT ITEMS
+VALUES(034,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
 
 
 
@@ -674,6 +710,15 @@ VALUES(035, 602, 7, 58, 0, 27, 32, 340, 1)
 INSERT GAMEPLAYSTATS
 VALUES('Myeong Ju', 035, 1, 'Conquérant', 'Q', 0.6, 'Early', 'Ignite', 6.7, 51.4, 11.5, 5.7, 'Mid')
 
+INSERT METASTATS
+VALUES(035, 'Myeong Ju', '2009-08-19', 'le gay', 2, 1350, 585, 6, NULL, 304424)
+
+INSERT LORESTATS
+VALUES(035, 'Katarina', 'Conquérant', 'Katarina' , 'MJ')
+
+INSERT ITEMS
+VALUES(035,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+
 
 
 -- Corki
@@ -682,6 +727,15 @@ VALUES(036, 518, 5, 55, 1, 28, 30, 325, 0)
 
 INSERT GAMEPLAYSTATS
 VALUES('LunchYz', 036, 1, 'Jeu de jambes', 'Q', 0.3, 'Late', 'Teleport', 2.44, 47.5, 0.2, 5.7, 'Mid')
+
+INSERT METASTATS
+VALUES(036, 'LunchYz', '2009-08-19', 'LunchYz', 2, 1350, 585, 6, NULL, 300824)
+
+INSERT LORESTATS
+VALUES(036, 'Corki', 'Jeu de jambes', 'Corki' , 'LunchYz')
+
+INSERT ITEMS
+VALUES(036,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
 
 
 
@@ -692,6 +746,15 @@ VALUES(037, 561, 9, 67, 1, 34, 32, 350, 1)
 INSERT GAMEPLAYSTATS
 VALUES('Sebekx', 037, 1, 'Grimoire Déchainé', 'Q', 0.2, 'Late', 'Teleport', 4.9, 50.3, 5, 5.7, 'Top')
 
+INSERT METASTATS
+VALUES(037, 'Sebekx', '2009-08-19', 'Sebekx', 2, 1350, 585, 6, NULL, 304424)
+
+INSERT LORESTATS
+VALUES(037, 'Nasus', 'Grimoire Déchainé', 'Nasus' , 'Sebekx')
+
+INSERT ITEMS
+VALUES(037,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+
 
 
 -- HEIMERDINGER
@@ -700,6 +763,15 @@ VALUES(038, 488, 7, 55, 1, 19, 30, 340, 0)
 
 INSERT GAMEPLAYSTATS
 VALUES('AuFault', 038, 1, 'Comète arcanique', 'W', 0.3, 'Late', 'Teleport', 4.2, 48.1, 2.1, 5.7, 'Top')
+
+INSERT METASTATS
+VALUES(038, 'AuFault', '2009-08-19', 'AuFault', 2, 1310, 585, 6, NULL, 300124)
+
+INSERT LORESTATS
+VALUES(038, 'HEIMERDINGER', 'The Shield of Valoran', 'HEIMERDINGER' , 'AuFault')
+
+INSERT ITEMS
+VALUES(038,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
 
 
 
@@ -710,6 +782,15 @@ VALUES(039, 587, 8, 63, 1, 30, 32, 350, 1)
 INSERT GAMEPLAYSTATS
 VALUES('Binh Ly', 039, 1, 'Déluge de lames', 'E', 0.4, 'Late', 'Smite', 6.6, 50.7, 8.9, 5.7, 'Jungle')
 
+INSERT METASTATS
+VALUES(039, 'Binh Ly', '2011-08-19', 'Binh Ly', 2, 1350, 585, 6, NULL, 304052)
+
+INSERT LORESTATS
+VALUES(039, 'Shaco', 'Déluge de lame', 'Shaco' , 'Binh Ly')
+
+INSERT ITEMS
+VALUES(039,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+
 
 
 -- Udyr
@@ -718,6 +799,15 @@ VALUES(040, 593, 6, 66, 1, 34, 32, 345, 1)
 
 INSERT GAMEPLAYSTATS
 VALUES('Pingon', 040, 1, 'Conquérant', 'Q', 0.25, 'Early', 'Smite', 5.4, 50.8, 0.3, 5.7, 'Jungle')
+
+INSERT METASTATS
+VALUES(040, 'Pingon', '2009-12-02', 'Pingon', 2, 1350, 585, 6, NULL, 304424)
+
+INSERT LORESTATS
+VALUES(040, 'Udyr', 'Conquérant', 'Udyr' , 'Pingon')
+
+INSERT ITEMS
+VALUES(040,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
 
 
 
