@@ -41,7 +41,7 @@ ORDER BY gs.WIN_RATE DESC
 
 
 -- 5
-SELECT top(10) CONCAT(ls.CHAMP_NAME, ' a ' , cs.HEALTH, ' de vie, ', cs.AD, ' d"attaque et prend ' , i.FIRST_ITEM_BUILT, ' comme premier objet') AS "Nom du champion, sa vie, son attaque et le premier objet build"
+SELECT top(1) CONCAT(ls.CHAMP_NAME, ' a ' , cs.HEALTH, ' de vie, ', cs.AD, ' d"attaque et prend ' , i.FIRST_ITEM_BUILT, ' comme premier objet') AS "Nom du champion, sa vie, son attaque et le premier objet build"
 FROM LORESTATS ls
 INNER JOIN CHAMPSTATS cs
 ON(ls.CHAMP_ID = cs.CHAMP_ID)
@@ -64,7 +64,7 @@ HAVING DATEDIFF(YEAR, ms.RELEASE_DATE, GETDATE()) < 11
 
 
 -- 7
-SELECT top(5) CONCAT(ls.CHAMP_NAME, ' a ' , cs.AD, ' d"attaque et est un champion a ressources méta') AS "Nom du champion et son attaque"
+SELECT top(1) CONCAT(ls.CHAMP_NAME, ' a ' , cs.AD, ' d"attaque et est un champion a ressources méta') AS "Nom du champion et son attaque"
 FROM LORESTATS ls
 INNER JOIN CHAMPSTATS cs
 ON (ls.CHAMP_ID = cs.CHAMP_ID)
@@ -128,6 +128,27 @@ ON(ms.CHAMP_ID = gs.CHAMP_ID)
 GROUP BY ms.RELEASE_DATE, ls.CHAMP_NAME, gs.WIN_RATE
 ORDER BY ms.RELEASE_DATE ASC, gs.WIN_RATE DESC
 
+
+-- 14
+SELECT CONCAT(ls.CHAMP_NAME, ' a ', gs.FIRST_BLOOD, ' % de chance de faire le premier sang') AS "Nom du champion et son taux de premier sang"
+FROM LORESTATS ls
+INNER JOIN GAMEPLAYSTATS gs
+ON(ls.CHAMP_ID = gs.CHAMP_ID)
+INNER JOIN METASTATS m
+ON(ls.CHAMP_ID = m.CHAMP_ID)
+GROUP BY m.PRO_PLAY, ls.CHAMP_NAME, gs.FIRST_BLOOD
+HAVING m.PRO_PLAY > 20
+ORDER BY gs.FIRST_BLOOD DESC
+
+
+-- 15
+SELECT top(10) CONCAT(ls.CHAMP_NAME, ' fait ', i.FIRST_ITEM_BUILT, ' comme premier objet') AS "Nom du champion et son premier item"
+FROM LORESTATS ls
+INNER JOIN ITEMS i
+ON(ls.CHAMP_ID = i.CHAMP_ID)
+INNER JOIN GAMEPLAYSTATS gs
+ON(ls.CHAMP_ID = gs.CHAMP_ID)
+ORDER BY gs.WIN_RATE DESC
 
 -- (BONUS)
 
