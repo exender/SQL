@@ -119,14 +119,14 @@ ORDER BY COUNT(i.FIRST_ITEM_BUILT) DESC
 
 
 -- 13 
-SELECT CONCAT(ls.CHAMP_NAME, ' a un win rate de ', gs.WIN_RATE, ' % et a ', DATEDIFF(YEAR, ms.RELEASE_DATE, GETDATE()), ' ans') AS "Nom du champion, son win rate et son ancienneté"
+SELECT top(5) CONCAT(ls.CHAMP_NAME, ' a un win rate de ', gs.WIN_RATE, ' % et a ', DATEDIFF(YEAR, ms.RELEASE_DATE, GETDATE()), ' ans') AS "Nom du champion, son win rate et son ancienneté"
 FROM METASTATS ms
 INNER JOIN LORESTATS ls
 ON(ms.CHAMP_ID = ls.CHAMP_ID)
 INNER JOIN GAMEPLAYSTATS gs
 ON(ms.CHAMP_ID = gs.CHAMP_ID)
 GROUP BY ms.RELEASE_DATE, ls.CHAMP_NAME, gs.WIN_RATE
-ORDER BY gs.WIN_RATE DESC
+ORDER BY ms.RELEASE_DATE ASC, gs.WIN_RATE DESC
 
 
 -- (BONUS)
