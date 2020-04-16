@@ -645,7 +645,7 @@ INSERT LORESTATS
 VALUES(031, 'Malphite', 'The Shield of Malphite', 'Comète arcanique' , 'Teleport')
 
 INSERT ITEMS
-VALUES(031,  'Convergence de Zeke', 'Bottes de mobilité', 7285, 35)
+VALUES(031,  'Gantelet givrant', 'Coeur gelé', 2700, 35)
 
 
 
@@ -663,7 +663,7 @@ INSERT LORESTATS
 VALUES(032, 'Janna', 'Comète arcanique', 'Janna' , 'SuperNami')
 
 INSERT ITEMS
-VALUES(032,  'Convergence de Zeke', 'Bottes de mobilité', 7265, 37)
+VALUES(032,  'L encencoir Ardent', 'La Redemption', 1885, 32)
 
 
 
@@ -681,7 +681,7 @@ INSERT LORESTATS
 VALUES(033, 'BLITZCRANK', 'Après-coup', 'BLITZCRANK' , 'besni')
 
 INSERT ITEMS
-VALUES(033,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(033,  'Convergence de Zeke', 'Médaillon de l iron Solari', 7365, 100)
 
 
 
@@ -699,7 +699,7 @@ INSERT LORESTATS
 VALUES(034, 'DR. MUNDO', 'Poigne de l"immortel', 'DR. MUNDO' , 'Hyperdown')
 
 INSERT ITEMS
-VALUES(034,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(034,  'Visage Spirituel', 'Cape Solaire', 155, 30)
 
 
 
@@ -717,7 +717,7 @@ INSERT LORESTATS
 VALUES(035, 'Katarina', 'Conquérant', 'Katarina' , 'MJ')
 
 INSERT ITEMS
-VALUES(035,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(035,  'Pistolame Hextech', 'Sablier de Zhonya', 1265, 40)
 
 
 
@@ -735,7 +735,7 @@ INSERT LORESTATS
 VALUES(036, 'Corki', 'Jeu de jambes', 'Corki' , 'LunchYz')
 
 INSERT ITEMS
-VALUES(036,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(036,  'Force de la Trinité', 'Canon ultra-rapide', 3520, 42)
 
 
 
@@ -753,7 +753,7 @@ INSERT LORESTATS
 VALUES(037, 'Nasus', 'Grimoire Déchainé', 'Nasus' , 'Sebekx')
 
 INSERT ITEMS
-VALUES(037,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(037,  'Force de la Trinité', 'Cottes Epineuse', 3255, 56)
 
 
 
@@ -768,10 +768,10 @@ INSERT METASTATS
 VALUES(038, 'AuFault', '2009-08-19', 'AuFault', 2, 1310, 585, 6, NULL, 300124)
 
 INSERT LORESTATS
-VALUES(038, 'HEIMERDINGER', 'The Shield of Valoran', 'HEIMERDINGER' , 'AuFault')
+VALUES(038, 'HEIMERDINGER', 'Comète arcanique', 'HEIMERDINGER' , 'AuFault')
 
 INSERT ITEMS
-VALUES(038,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(038,  'Echo de Luden', 'Coiffe de Rabadon', 5243, 62)
 
 
 
@@ -789,7 +789,7 @@ INSERT LORESTATS
 VALUES(039, 'Shaco', 'Déluge de lame', 'Shaco' , 'Binh Ly')
 
 INSERT ITEMS
-VALUES(039,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(039,  'Sabre de l escarmoucheur', 'Lame Spectre de Youmuu', 6465, 28)
 
 
 
@@ -807,7 +807,7 @@ INSERT LORESTATS
 VALUES(040, 'Udyr', 'Conquérant', 'Udyr' , 'Pingon')
 
 INSERT ITEMS
-VALUES(040,  'Convergence de Zeke', 'Bottes de mobilité', 7365, 37)
+VALUES(040,  'Lame du Traqueur', 'Plaque du mort', 5265, 64)
 
 
 
