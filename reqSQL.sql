@@ -104,8 +104,13 @@ ORDER BY gs.WIN_RATE DESC
 
 
 -- 10
+--cs.HEALTH, cs.HEALTH_REGEN, cs.ARMOR,  cs.MR,  cs.AD, cs.MVT_SPEED
 
-
+SELECT CONCAT(ls.CHAMP_NAME, ' a les stats les plus élever de base') AS "Nom du champion"
+FROM CHAMPSTATS cs
+INNER JOIN LORESTATS ls
+ON(cs.CHAMP_ID = ls.CHAMP_ID)
+ORDER BY ls.CHAMP_NAME ASC
 
 -- (BONUS)
 
